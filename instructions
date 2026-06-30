@@ -1,0 +1,14 @@
+Step 1 : Run the 'enhanced_data_model' script. The script creates raw_upi_transactions and 
+         merchant_aggregations table.
+
+Step 2 : Run the test script, the code starts --> open driver logs tab in the compute page to look at the output. 
+
+Step 3 : Run the enhanced_data_mock_generator script and view the output in the console log. 
+
+Step 4 : Stop the enhanced_data_mock_generator script. Run the update and delete functions. Observe the output in the console log. 
+
+Step 5 : This completes the testing process. Use raw_upi_transactions table for this process. 
+
+Step 6 : Re-run the enhanced_data_mock_generator script - This generates the data. raw_upi_transactions_v1 is used for this process. 
+
+Step 7 : Run realtime_streaming_pipeline script. Check the output in the merchants aggregations table. 
